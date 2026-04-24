@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 2;
+}
+.title{
+    color: blueviolet;
+}
+.navbar__s2{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border:solid 1px black ;
+    border-radius: 30px;
+    width: 60%;
+    align-items: center;
+
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display:flex ;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    justify-content: space-around;
+
+}
+.categories p{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border:2px solid rgb(216, 190, 240) ;
+    border-radius: 10px;
+}
+.categories p:hover{
+    background-color:rgb(216, 190, 240) ;
+    color:blueviolet ;
+    border:2px solid blueviolet;
+    transition: .5s;
+}
+.saleimg img{
+    width: 100%;
+    height: 400px;
+    
+}
+.offer{
+    background-color: white;
+    border: black solid 2px;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 100px;
+    width: 420px;
+    height: 100px;
+    padding: 20px;
+}
+.recommanded{
+    padding: 10px;
+}
+
+.recommanded__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.course-card{
+    width: 250px;
+
+
+}
+.course-card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.topic{
+    padding: 10px;
+}
+
+.topic__container{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.topic__container p{
+    border: solid 1px rgb(216, 190, 240);
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 25%;
+    
+    color: blueviolet;
+    
+
+}
+.footer{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+
+    
+}
+.footer-one{
+    display: flex;
+    gap: 20px;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-one p{
+    margin: 20px;
+}
+.footer-two p{
+    margin:20px
+}
+
