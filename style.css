@@ -19,8 +19,8 @@ body{
     align-items: center;
     position: sticky;
     top: 0;
-    backdrop-filter: blur(20px);
     z-index: 2;
+    background-color: white;
 }
 .title{
     color: blueviolet;
@@ -39,6 +39,7 @@ body{
     border: none;
     width: 100%;
     font-size: 16px;
+    text-decoration: none;
 }
 .navbar__s2 input:focus{
     outline: none;
@@ -47,6 +48,7 @@ body{
     display:flex ;
     gap: 10px;
     align-items: center;
+    color: blueviolet;
 }
 
 .categories{
@@ -78,10 +80,10 @@ body{
     border: white solid 2px;
     position: absolute;
     z-index: 1;
-    top: 250px;
+    top: 300px;
     left: 50px;
-    width: 420px;
-    height: 100px;
+    width: 300px;
+    height: fit-content;
     padding: 20px;
     opacity: 0;
     animation-name: zoom;
